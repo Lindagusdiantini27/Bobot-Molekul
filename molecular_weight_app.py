@@ -40,7 +40,7 @@ elements.append((current_element, count if count > 0 else 1))
 
     molecular_weight =
 
-sum(element(e).atomic_weight * n for e, n in element)
+sum(element(e).atomic_weight * n for e, n in elements)
 
     return molecular_weight
 
