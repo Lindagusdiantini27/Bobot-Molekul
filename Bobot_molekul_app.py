@@ -146,7 +146,7 @@ else:
 # Menampilkan skor akhir
         st.write(f"skor akhir Anda adalah {score} dari {len(questions)} soal.")
 st.markdown(
-    ---
+    --
     (style)
     footer {
         position: fixed;
