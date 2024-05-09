@@ -5,7 +5,7 @@ st.tittle("a captivating summary:sunglasses:")
 # Definisikan fungsi untuk melakukan login
 def login():
     username = ""
-    password = --
+    password = ""
     with st.form("login_form"):
         st.image("cover.jpg")
         username = st.text_input("username")
