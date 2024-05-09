@@ -238,11 +238,7 @@ def hitung_bobot_molekul(formula):
 
         'U': 238.029, 
 
-
-
-
-
-        # tambahkan atom-atom lainnya sesuai kebutuhan 
+     # tambahkan atom-atom lainnya sesuai kebutuhan 
     
     }
 
