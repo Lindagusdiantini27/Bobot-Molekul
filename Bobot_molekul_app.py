@@ -39,7 +39,7 @@ else:
 
     # Tampilkan konten aplikasi setelah login berhasil
             #Bobot Molekul
-        nomor_atom = {
+    if pilihan == "Bobot Molekul":
             'H': 1.008,
             'He': 4.003,
             'Li': 6.941,
