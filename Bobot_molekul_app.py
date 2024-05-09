@@ -4,7 +4,7 @@ st.set_page_config(page_title="Bobot Molekul Senyawa Kimia", page_icon="👩🏻
 st.tittle("a captivating summary:sunglasses:")
 # Definisikan fungsi untuk melakukan login
 def login():
-    username = --
+    username = ""
     password = --
     with st.form("login_form"):
         st.image("cover.jpg")
