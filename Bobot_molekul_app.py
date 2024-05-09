@@ -138,7 +138,7 @@ else:
             st.write("Jawaban Anda salah.")
             st.write(f"Jawaban yang benar adalah: {answer}")
                     
-                st.write("")
+        st.write("")
 
 # Penghapus 
         st.write("...")
