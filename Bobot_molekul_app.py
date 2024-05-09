@@ -145,7 +145,7 @@ else:
 
 # Menampilkan skor akhir
         st.write(f"skor akhir Anda adalah {score} dari {len(questions)} soal.")
-st.markdown(
+st.markdown
     ---
         position: fixed; 
         left: 0;
@@ -153,7 +153,7 @@ st.markdown(
         width: 100%;
         text-align: right;
         padding: Spx;
-    }
+        
     </style>
     ---
     , unsafe_allow_htm1=True)
