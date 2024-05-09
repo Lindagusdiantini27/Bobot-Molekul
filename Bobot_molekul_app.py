@@ -164,6 +164,7 @@ st.markdown(
 
     <div class="footer">
         <p>Dibuat oleh: Kelompok 3</p>
+        <p>Versi: 1.0</p>
         <p>o 2024 Hak Cipta</p>
     </div>
     ---
