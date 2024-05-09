@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_bobot molekul(page_title="Bobot Molekul Senyawa Kimia", page_icon="👩🏻‍🔬")
+st.set_page_config(page_title="Bobot Molekul Senyawa Kimia", page_icon="👩🏻‍🔬")
 
 st.tittle("a captivating summary:sunglasses:")
 # Definisikan fungsi untuk melakukan login
