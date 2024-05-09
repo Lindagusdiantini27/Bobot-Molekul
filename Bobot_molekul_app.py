@@ -134,11 +134,11 @@ else:
         score = 0
         for question, answer in question.items():
             user_answer = st.text_input(f"Pertanyaan: {question}")
-                else: 
-                    st.write("Jawaban Anda salah.")
-                    st.write(f"Jawaban yang benar adalah: {answer}")
+            else:
+                st.write("Jawaban Anda salah.")
+                st.write(f"Jawaban yang benar adalah: {answer}")
                     
-                st.write("")
+            st.write("")
 
 # Penghapus 
         st.write("...")
