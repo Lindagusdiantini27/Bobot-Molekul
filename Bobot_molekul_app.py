@@ -128,7 +128,7 @@ else:
         
 # Menampilkan judul dan instruksi latihan soal
         st.tittle("Latihan Soal Mudah")
-        st.write("Silahkan kerjakan latihan soal tersebut"):
+        st.write("Silahkan kerjakan latihan soal tersebut:")
         
 # Menampilkan setiap pertanyaan dan meminta jawaban dari pengguna
         score = 0
