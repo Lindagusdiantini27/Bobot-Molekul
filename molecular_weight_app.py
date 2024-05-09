@@ -2,9 +2,7 @@ import streamlit as st
 
 from mendeleev import element
 
-def
-
-calculate_molecular_weight(formula):
+def calculate_molecular_weight(formula):
 
     elements = []
 
