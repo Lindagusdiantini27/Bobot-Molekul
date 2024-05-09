@@ -145,7 +145,23 @@ else:
 
 # Menampilkan skor akhir
         st.write(f"skor akhir Anda adalah {score} dari {len(questions)} soal.")
-st.markdown
+st.markdown(
+    ---
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: right;
+        padding: Spx;
+    }
+    </style>
+    ---
+    , unsafe_allow_htm1=True)
+st.markdown(
+    ---
+
     <div class="footer">
         <p>Dibuat oleh: Kelompok 3</p>
         <p>o 2024 Hak Cipta</p>
