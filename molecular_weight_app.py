@@ -14,11 +14,9 @@ def calculate_molecular_weight(formula):
 
         if char.issuper():
 
-            if current_element:
+        if current_element:
 
-elements.append((current_element,
-
-count if count > 0 else 1))
+elements.append((current_element, count if count>0 else 1))
 
             current_element = char 
 
