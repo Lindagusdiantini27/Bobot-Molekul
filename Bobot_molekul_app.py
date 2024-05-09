@@ -147,11 +147,6 @@ else:
         st.write(f"skor akhir Anda adalah {score} dari {len(questions)} soal.")
 st.markdown
 
-    </style>
-    ---
-    , unsafe_allow_htm1=True)
-st.markdown(
-    ---
     <div class="footer">
         <p>Dibuat oleh: Kelompok 3</p>
         <p>o 2024 Hak Cipta</p>
