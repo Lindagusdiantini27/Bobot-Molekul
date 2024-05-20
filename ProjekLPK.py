@@ -55,7 +55,8 @@ def MenuUtama():
     elif pilihan == 'Anggota Kelompok': Anggota()
     elif pilihan == 'Daftar Unsur': DisplayUnsur()
     elif pilihan == 'Kalkulator Senyawa': KalkulatorPintar()
-    elif pilihan == 'Rumus, Contoh dan Latihan Soal': Latsol()
+    elif pilihan == 'Rumus dan Contoh Soal': Rumus()
+    elif pilihan == 'Latihan Soal': Latsol()
 
 def Landing():
     st.title('Hallo Teman AKA We Here For You👩🏻‍🔬🧪')
@@ -115,19 +116,7 @@ def KalkulatorPintar():
         except Exception:
             st.write('Maaf, sepertinya anda memasukkan senyawa yang salah')
 
-def ControlSoal():
-    GS = Soal()
-    soal, senyawa, jawaban, jawaban_rinci = GS.MenuSoal()
-    st.write(soal)
-    st.subheader(senyawa)
-    st.write('')
-    jawaban_user = st.text_input('Masukkan {} {}'.format(str(soal.split(' ')[1]), str(soal.split(' ')[2])))
-    return(soal, senyawa, jawaban, jawaban_rinci, jawaban_user)
-
-if 'generate_button' not in st.session_state: st.session_state.generate_button = False
-if 'submit_button'   not in st.session_state: st.session_state.submit_button   = False
-
-def Latsol():
+def Rumus():
     st.title('Rumus, Contoh dan Latihan Soal✍🏻❕❕')
     st.subheader('', divider='rainbow')
     st.title('📌Rumus📌')
@@ -142,6 +131,20 @@ def Latsol():
     = 30n = 60\n
     = 132\n
     """)
+
+def ControlSoal():
+    GS = Soal()
+    soal, senyawa, jawaban, jawaban_rinci = GS.MenuSoal()
+    st.write(soal)
+    st.subheader(senyawa)
+    st.write('')
+    jawaban_user = st.text_input('Masukkan {} {}'.format(str(soal.split(' ')[1]), str(soal.split(' ')[2])))
+    return(soal, senyawa, jawaban, jawaban_rinci, jawaban_user)
+
+if 'generate_button' not in st.session_state: st.session_state.generate_button = False
+if 'submit_button'   not in st.session_state: st.session_state.submit_button   = False
+
+def Latsol():
     generate_button = st.button('Generate')
     st.write('')
     if generate_button:
