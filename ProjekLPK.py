@@ -68,7 +68,7 @@ def Landing():
     
 def Anggota():
     st.header('👋🏻Anggota Kelompok👋🏻')
-    st.write("""1. Anisa Imanda Sirais (2360071)\n
+    st.write(""" 1. Anisa Imanda Sirais (2360071)\n
     2. Aulia Qosimul Qisti(2360080)\n
     3. Cindy Nurfadila(2360091)\n
     4. Linda Gusdiantini(2360162)\n
@@ -99,7 +99,7 @@ def DisplayUnsur():
             st.write('{} : {}'.format(daftar_data_unsur[i][0], daftar_data_unsur[i][1]))
 
 def KalkulatorPintar():
-    senyawa = st.text_input('MASUKKAN SENYAWA DENGAN BENAR❗❗')
+    senyawa = st.header_input('MASUKKAN SENYAWA DENGAN BENAR❗❗')
     st.subheader('', divider='rainbow')
     st.subheader('', divider='rainbow')
     if senyawa == '': pass
@@ -119,11 +119,11 @@ def KalkulatorPintar():
 def Rumus():
     st.title('Rumus dan Contoh Soal✍🏻❕❕')
     st.subheader('', divider='rainbow')
-    st.title('📌Rumus📌')
+    st.header('📌Rumus📌')
     st.write (""" Massa Molekul Relatif\n
     Mr molekul AxBy = (x. Ar A) + (y. Ar B) + dst')\n
     """)
-    st.title('🧮Contoh soal🧮')
+    st.header('🧮Contoh soal🧮')
     st.write(""" Hitunglah massa molekul relatif senyawa (NH2)4SO4, jika diketahui Ar H = 1, N =14, O = 16, dan S = 32.\n
     Pembahasan\n
     Mr (NH2)4SO4 = (2 x Ar N) + (2 x 4 x Ar H) + (1 x Ar S) + (4 x Ar O)\n
