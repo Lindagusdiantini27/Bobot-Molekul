@@ -61,13 +61,13 @@ def MenuUtama():
 def Landing():
     st.title('Hallo Teman AKA We Here For You👩🏻‍🔬🧪')
     st.subheader('', divider='rainbow')
+    st.write ('Massa molekul relatif adalah gabungan penjumlahan nilai massa atom relatif (Ar) dari atom-atom pembentuk molekul tersebut. Massa molekul relatif juga dapat didefinisikan sebagai perbandingan massa antara 1 molekul atau 1 satuan dari suatu zat terhadap 112 massa satu atom isotop karbon 12.')
     st.write ('Aplikasi ini merupakan aplikasi untuk menentukan Bobot Molekul senyawa kimia berdasarkan penjumlahan nomor atom yang diketahui, cukup dengan memasukkan senyawa kimia dengan tepat akan muncul hasil Bobot Molekul yang diinginkan')
-    st.write ('Beautiful result do not come from easy steps, so never give up, keep trying, believe in your own abilities👩🏻‍💻👨🏼‍💻')
     st.subheader('', divider='rainbow')
     st.title ('Selamat Mengerjakan🤩✊🏻')
     
 def Anggota():
-    st.header('👋🏻Anggota Kelompok👋🏻')
+    st.title('👋🏻Anggota Kelompok👋🏻')
     st.write("""
     1. Anisa Imanda Sirais (2360071)\n
     2. Aulia Qosimul Qisti(2360080)\n
@@ -75,12 +75,14 @@ def Anggota():
     4. Linda Gusdiantini(2360162)\n
     5. Wisnu Yanindra Kusuma(2360290)\n
     """)
+    st.header('🫧Quotes🫧')
+    st.write('Beautiful result do not come from easy steps, so never give up, keep trying, believe in your own abilities👩🏻‍💻👨🏼‍💻')
     st.subheader('', divider='rainbow')
     st.write('🧚🏻💃🏻🧜🏻🙆🏻‍♀️👩🏻‍🎓👨🏻‍🔬🧕🏻🦋🐣☘️💐')
 
 
 def DisplayUnsur():
-    st.header('📍Daftar Unsur Kimia📍')
+    st.title('📍Daftar Unsur Kimia📍')
     st.subheader('', divider='rainbow')
     st.write('')
     col1, col2, col3, col4 = st.columns(4, gap='small')
