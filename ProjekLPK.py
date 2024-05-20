@@ -68,6 +68,7 @@ def Landing():
     
 def Anggota():
     st.title('👋🏻Anggota Kelompok👋🏻')
+    st.subheader('', divider='rainbow')
     st.write("""
     1. Anisa Imanda Sirais (2360071)\n
     2. Aulia Qosimul Qisti(2360080)\n
