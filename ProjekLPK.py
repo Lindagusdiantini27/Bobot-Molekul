@@ -117,7 +117,7 @@ def KalkulatorPintar():
             st.write('Maaf, sepertinya anda memasukkan senyawa yang salah')
 
 def Rumus():
-    st.title('Rumus, Contoh dan Latihan Soal✍🏻❕❕')
+    st.title('Rumus dan Contoh Soal✍🏻❕❕')
     st.subheader('', divider='rainbow')
     st.title('📌Rumus📌')
     st.write (""" Massa Molekul Relatif\n
