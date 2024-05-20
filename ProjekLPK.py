@@ -50,7 +50,7 @@ def Display(data):
         st.write('{} unsur {}'.format(str(b), str(a)))
 
 def MenuUtama():
-    pilihan = st.sidebar.selectbox('Menu', ['Hallo Teman AKA We Here For You', 'Anggota Kelompok', 'Daftar Unsur', 'Kalkulator Senyawa', 'Latihan Soal'])
+    pilihan = st.sidebar.selectbox('Menu', ['Hallo Teman AKA We Here For You', 'Anggota Kelompok', 'Daftar Unsur', 'Kalkulator Senyawa', 'Rumus dan Contoh Soal', 'Latihan Soal'])
     if pilihan == 'Hallo Teman AKA We Here For You': Landing()
     elif pilihan == 'Anggota Kelompok': Anggota()
     elif pilihan == 'Daftar Unsur': DisplayUnsur()
