@@ -55,7 +55,7 @@ def MenuUtama():
     elif pilihan == 'Anggota Kelompok': Anggota()
     elif pilihan == 'Daftar Unsur': DisplayUnsur()
     elif pilihan == 'Kalkulator Senyawa': KalkulatorPintar()
-    elif pilihan == 'Latihan Soal': Latsol()
+    elif pilihan == 'Rumus, Contoh dan Latihan Soal': Latsol()
 
 def Landing():
     st.title('Hallo Teman AKA We Here For You👩🏻‍🔬🧪')
@@ -128,6 +128,20 @@ if 'generate_button' not in st.session_state: st.session_state.generate_button =
 if 'submit_button'   not in st.session_state: st.session_state.submit_button   = False
 
 def Latsol():
+    st.title('Rumus, Contoh dan Latihan Soal✍🏻❕❕')
+    st.subheader('', divider='rainbow')
+    st.title('📌Rumus📌')
+    st.write (""" Massa Molekul Relatif\n
+    Mr molekul AxBy = (x. Ar A) + (y. Ar B) + dst')\n
+    """)
+    st.title('🧮Contoh soal🧮')
+    st.write(""" Hitunglah massa molekul relatif senyawa (NH2)4SO4, jika diketahui Ar H = 1, N =14, O = 16, dan S = 32.\n
+    Pembahasan\n
+    Mr (NH2)4SO4 = (2 x Ar N) + (2 x 4 x Ar H) + (1 x Ar S) + (4 x Ar O)\n
+    = (2 x 14) + (8 x 1) + (1 x 32) + (4 x 16)\n
+    = 30n = 60\n
+    = 132\n
+    """)
     generate_button = st.button('Generate')
     st.write('')
     if generate_button:
