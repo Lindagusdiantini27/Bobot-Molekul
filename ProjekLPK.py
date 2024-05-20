@@ -68,7 +68,8 @@ def Landing():
     
 def Anggota():
     st.header('👋🏻Anggota Kelompok👋🏻')
-    st.write(""" 1. Anisa Imanda Sirais (2360071)\n
+    st.write("""
+    1. Anisa Imanda Sirais (2360071)\n
     2. Aulia Qosimul Qisti(2360080)\n
     3. Cindy Nurfadila(2360091)\n
     4. Linda Gusdiantini(2360162)\n
@@ -99,7 +100,7 @@ def DisplayUnsur():
             st.write('{} : {}'.format(daftar_data_unsur[i][0], daftar_data_unsur[i][1]))
 
 def KalkulatorPintar():
-    senyawa = st.header_input('MASUKKAN SENYAWA DENGAN BENAR❗❗')
+    senyawa = st.text_input('MASUKKAN SENYAWA DENGAN BENAR❗❗')
     st.subheader('', divider='rainbow')
     st.subheader('', divider='rainbow')
     if senyawa == '': pass
