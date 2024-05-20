@@ -132,7 +132,6 @@ def Rumus():
     Pembahasan\n
     Mr (NH2)4SO4 = (2 x Ar N) + (2 x 4 x Ar H) + (1 x Ar S) + (4 x Ar O)\n
     = (2 x 14) + (8 x 1) + (1 x 32) + (4 x 16)\n
-    = 30n = 60\n
     = 132\n
     """)
 
