@@ -67,8 +67,8 @@ def Landing():
     st.title ('Selamat Mengerjakan🤩✊🏻')
     
 def Anggota():
-    st.write ("""👋🏻ANGGOTA KELOMPOK👋🏻\n
-    1. Anisa Imanda Sirais (2360071)\n
+    st.header('👋🏻Anggota Kelompok👋🏻')
+    st.write("""1. Anisa Imanda Sirais (2360071)\n
     2. Aulia Qosimul Qisti(2360080)\n
     3. Cindy Nurfadila(2360091)\n
     4. Linda Gusdiantini(2360162)\n
